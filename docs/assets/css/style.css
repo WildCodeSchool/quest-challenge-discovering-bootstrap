@@ -1,0 +1,20 @@
+:root {
+    --bs-primary-rgb: 14, 84, 161;
+    --bs-primary: rgb(var(--bs-primary-rgb));
+    --bs-bg-opacity: .8;
+}
+
+body {
+    padding-top: 3.5rem;
+}
+
+.btn-primary {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity));
+    border-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity));
+}
