@@ -18,10 +18,26 @@
             <div class="row">
                 <?php
                 $contents = [
-                    ["text" => "Some quick example text to build on the card title and make up the bulk of the card's content.", "img" => "https://picsum.photos/id/1011/600/400"],
-                    ["text" => "Some quick example text.", "img" => "https://picsum.photos/id/1035/600/400"],
-                    ["text" => "Make up the bulk of the card's content.", "img" => "https://picsum.photos/id/1015/600/400"],
-                    ["text" => "Build on the card title and make up the bulk of the card's content.", "img" => "https://picsum.photos/id/103/600/400"],
+                    [
+                        'title' => "Visit Components lake",
+                        'text' => 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
+                        'img' => 'https://picsum.photos/id/1011/600/400'
+                    ],
+                    [
+                        'title' => "Facing Cascade Style Sheet",
+                        'text' => 'Some quick example text.',
+                        'img' => 'https://picsum.photos/id/1035/600/400'
+                    ],
+                    [
+                        'title' => 'Contemplate Form Inputs river',
+                        'text' => 'Make up the bulk of the card\'s content.', 
+                        'img' => 'https://picsum.photos/id/1015/600/400'
+                    ],
+                    [
+                        'title' => 'Enjoy Responsive Layout land',
+                        'text' => 'Build on the card title and make up the bulk of the card\'s content.', 
+                        'img' => 'https://picsum.photos/id/103/600/400'
+                    ],
                 ];
                 ?>
                 <?php foreach ($contents as $content) : ?>
@@ -29,7 +45,7 @@
                         <div class="card h-100 shadow border-0">
                             <img src="<?= $content["img"] ?>" class="card-img-top" alt="">
                             <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Card title</h5>
+                                <h5 class="card-title"><?=$content['title']?></h5>
                                 <p class="card-text d-none d-lg-block">
                                     <?= $content["text"] ?>
                                 </p>
@@ -51,7 +67,7 @@
             </div>
         </section>
         <div class="bg-primary text-white p-2 text-center">
-            &copy; 2022 wilders
+            &copy; 2022 wilders | images <a href="https://picsum.photos/" target="_blank">@picsum</a>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

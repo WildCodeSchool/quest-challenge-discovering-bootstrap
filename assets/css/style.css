@@ -8,6 +8,10 @@ body {
     padding-top: 3.5rem;
 }
 
+footer a {
+    color: white;
+}
+
 .btn-primary {
     background-color: var(--bs-primary);
     border-color: var(--bs-primary);
