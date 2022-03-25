@@ -1,7 +1,7 @@
 <?php
 
 // change this path with your GitHub repository name
-$repos = "/discovering-bootstrap";
+$repos = "/quest-challenge-discovering-bootstrap";
 
 //list the php files from root directory that must be converted.
 //important: do not write the extension .php
