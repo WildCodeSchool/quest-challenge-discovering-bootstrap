@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Discovering Bootstrap 5.1</title>
-    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css' rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Discovering Bootstrap</title>
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css' rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
@@ -22,25 +22,25 @@
                         'title' => "Visit Components lake",
                         'text' => 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
                         'img' => 'https://picsum.photos/id/1011/600/400',
-                        'link' => 'https://getbootstrap.com/docs/5.1/components/accordion/'
+                        'link' => 'https://getbootstrap.com/docs/5.2/components/accordion/'
                     ],
                     [
                         'title' => "Facing Cascade Style Sheet",
                         'text' => 'Some quick example text.',
                         'img' => 'https://picsum.photos/id/1035/600/400',
-                        'link' => 'https://getbootstrap.com/docs/5.1/customize/css-variables/'
+                        'link' => 'https://getbootstrap.com/docs/5.2/customize/css-variables/'
                     ],
                     [
                         'title' => 'Contemplate Form Inputs river',
                         'text' => 'Make up the bulk of the card\'s content.',
                         'img' => 'https://picsum.photos/id/1015/600/400',
-                        'link' => 'https://getbootstrap.com/docs/5.1/forms/overview/'
+                        'link' => 'https://getbootstrap.com/docs/5.2/forms/overview/'
                     ],
                     [
                         'title' => 'Enjoy Responsive Layout land',
                         'text' => 'Build on the card title and make up the bulk of the card\'s content.',
                         'img' => 'https://picsum.photos/id/103/600/400',
-                        'link' => 'https://getbootstrap.com/docs/5.1/layout/breakpoints/'
+                        'link' => 'https://getbootstrap.com/docs/5.2/layout/breakpoints/'
                     ],
                 ];
                 ?>
@@ -53,10 +53,7 @@
                                 <p class="card-text d-none d-lg-block">
                                     <?= $content["text"] ?>
                                 </p>
-                                <a href='<?= $content["link"] ?>' 
-                                class="btn btn-primary mt-auto stretched-link"
-                                target="_blank"
-                                >
+                                <a href='<?= $content["link"] ?>' class="btn btn-primary mt-auto stretched-link" target="_blank">
                                     Read more
                                 </a>
                             </div>
@@ -67,7 +64,7 @@
         </section>
     </main>
     <?php include '_footer.php' ?>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js' integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -1,4 +1,4 @@
-# Discovering Bootstrap 5.1
+# Discovering Bootstrap 5.2
 
 ## Notions abordées
 

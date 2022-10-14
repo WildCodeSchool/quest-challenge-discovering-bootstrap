@@ -8,17 +8,20 @@ body {
     padding-top: 3.5rem;
 }
 
-footer a {
+footer a,
+footer a:hover {
     color: white;
 }
 
 .btn-primary {
-    background-color: var(--bs-primary);
-    border-color: var(--bs-primary);
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-hover-bg: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity));
+    --bs-btn-hover-bg: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity));
 }
 
-.btn-primary:hover,
 .btn-primary:focus {
-    background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity));
-    border-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity));
+    --bs-btn-bg: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity));
+    --bs-btn-border-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity));
+    --bs-btn-border-width: 3px;
 }
