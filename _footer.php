@@ -7,7 +7,7 @@
             </p>
         </div>
     </section>
-    <div class="bg-primary text-white p-2 text-center">
-        &copy; 2022 wilders | images <a href='https://picsum.photos/' target="_blank">@picsum</a>
+    <div class="text-bg-primary p-2 text-center">
+        &copy; <?=date('Y')?> wilders | images <a href='https://picsum.photos/' target="_blank">@picsum</a>
     </div>
 </footer>
